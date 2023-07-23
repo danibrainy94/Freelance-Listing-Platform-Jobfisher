@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-size: 0.91rem;
+}
+
+a{
+    text-decoration: none;
+    color: #0057FF;
+}
+
+.card-title {
+    font-size: 1.1rem; 
+    font-weight: 600
+}
+
+
+.custom-btn{
+    background-color: #22A2D9;
+    color: white;
+    width: 100%;
+}
+
+.custom-btn:hover{
+    background-color: #0a83b7;
+    color: white;
+    width: 100%;
+}
+
+.custom-center{
+    margin: auto;
+}
+
+.custom-center2{
+    margin: 0px auto;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url(../images/blur_bg.png) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.rockwell-font{
+    font-family: 'Rockwell font', sans-serif;
+}
+
+@media screen and (min-width: 500px) {
+    
+   .card{
+    max-width: 500px;
+   }
+  }
+  

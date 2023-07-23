@@ -25,7 +25,7 @@ module.exports = {
       },
       animation: {
         'slantIn' : "slantIn .6s ease-in",
-        'zoomIn' : "zoomIn 1s ease-in",
+        'zoomIn' : "zoomIn .4s ease-in",
         'rotate': "rotate 2s ease-in",
         'zoom2' : "zoom2 2s ease-in"
       }

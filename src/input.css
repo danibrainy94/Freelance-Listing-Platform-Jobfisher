@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .navbar-col {
+        background: rgb(14, 14, 14);
+        background: linear-gradient(90deg, rgba(14, 14, 14, 1) 0%, rgba(34, 162, 217, 1) 50%);
+    }
+
+    .bg-gradient1 {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 50%, rgba(45, 43, 43, 1) 85%);
+    }
+
+    .bg-gradient2 {
+        background: linear-gradient(90deg, #000 46.46%, rgba(11, 11, 11, 0.95) 50.37%, rgba(22, 22, 22, 0.90) 54.48%, rgba(217, 217, 217, 0.00) 100%);
+        background-blend-mode: multiply;
+    }
+
+    .mid-graient {
+        background: rgb(34, 162, 217);
+        background: linear-gradient(90deg, rgba(34, 162, 217, 1) 94%, rgba(255, 255, 255, 1) 100%);
+    }
+
+    .hide-content {
+        display: none;
+    }
+
+    .hide-ham {
+        display: none;
+    }
+
+    .show-ham {
+        display: block;
+    }
+
+    .active-page {
+        background: white;
+        color: #21A2D9;
+    }
+}

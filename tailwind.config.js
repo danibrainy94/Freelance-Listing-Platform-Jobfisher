@@ -13,8 +13,10 @@ module.exports = {
           '100%': {'transform':'translateX(0px)'},
         },
         zoomIn: {
-          '0%': {'transform':'translateY(-80px) blur(2px)'},
-          '100%': {'transform':'translateY(0px) blur(0px)'},
+          '0%': {'transform':'translateY(30px)'}, 
+          '0%': {'filter':'blur(5px)'}, 
+          '100%': {'transform':'translateY(0px)'}, 
+          '100%': {'filter':'blur(0px)'}, 
         },
         zoom2: {
           '0%': {'transform':'scale(1.2)'},

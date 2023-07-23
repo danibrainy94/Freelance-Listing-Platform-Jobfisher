@@ -761,11 +761,11 @@ html {
 
 @keyframes zoomIn {
   0% {
-    transform: translateY(-80px) blur(2px);
+    filter: blur(5px);
   }
 
   100% {
-    transform: translateY(0px) blur(0px);
+    filter: blur(0px);
   }
 }
 

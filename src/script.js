@@ -9,7 +9,7 @@ function displayNavContent() {
 
     hamBtn.classList.add('hide-ham');
     closeHamBtn.classList.remove('hide-ham');
-    
+    document.getElementsByTagName('html')
 }
 
 //function to display nav conteents when the hamburger button is clicked
@@ -23,6 +23,22 @@ function hideNavContent () {
 // Designating actions to each click-event button
 hamBtn.addEventListener('click', displayNavContent);
 closeHamBtn.addEventListener('click', hideNavContent);
+
+
+/*********============*****
+Smooth Scrolling Effect
+ *********============*****/
+
+// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+//     anchor.addEventListener('click', function(e) {
+//         e.preventDefault();
+//         document.querySelector(this.getAttribute("href")).scrollIntoView({
+//             behaviour : "smooth"
+//         });
+//     });
+// });
+
+
 
 
 

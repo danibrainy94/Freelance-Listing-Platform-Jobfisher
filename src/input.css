@@ -39,4 +39,8 @@
         background: white;
         color: #21A2D9;
     }
+
+    html {
+        scroll-behavior: smooth;
+    }
 }

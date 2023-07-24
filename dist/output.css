@@ -641,6 +641,14 @@ html {
   left: 0.5rem;
 }
 
+.left-3 {
+  left: 0.75rem;
+}
+
+.left-6 {
+  left: 1.5rem;
+}
+
 .z-0 {
   z-index: 0;
 }

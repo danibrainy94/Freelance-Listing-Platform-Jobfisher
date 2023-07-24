@@ -6,31 +6,40 @@
     <title>Document</title>
     <link rel="stylesheet" href="/dist/output.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="font-inter">
     
-    <section class="w-full h-screen flex justify-center items-center">
+    <section class="flex justify-center items-center h-screen">
+
         
-        <div class="px-20 py-2 w-[45vw] h-[67vh]  shadow-lg shadow-slate-500 rounded-lg">
+        <div class="w-[90vw] px-3 py-2 rounded-lg shadow-lg shadow-slate-600 m-8 md:px-20 md:py-2 md:w-[60vw] md:h-fit lg:w-[60vw] lg:h-[67vh] animate-zoom2 relative">
+            <a class="absolute left-[-3%] top-[-5%]" href="/index.html"><box-icon type='solid' name='x-circle' size='64px' color='#22A2D9'></box-icon></a>
 
             <header class="text-center">
-                <h1 class="p-1 text-2xl">Customer Feedback</h1>
+                <h1 class="p-1 text-xl md:text-2xl font-bold animate-slant2">Customer Feedback</h1>
             </header>
 
             <div class="my-0 mx-auto bg-slate-700 w-32 h-32 rounded-full">
                 <img id="img" class="w-32 h-32 rounded-full" src="/images/profile-danny.jpg" alt="">
             </div>
 
-            <div class="text-center">
-                <h2 id="name" class="p-2 text-xl font-bold italic text-[#22A2D9]">Ugwu Daniel Stephen</h2>
-                <p class="title-description text-left">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tempore, reiciendis rerum autem nostrum fugiat
-                    ratione quidem excepturi mollitia magnam neque praesentium hic, amet quibusdam aliquam dolorum dolores
-                    necessitatibus dolorem?
-                </p>
+            <div class="text-center animate-slant2">
+                <h2 id="name" class=" p-2 italic text-[#22A2D9] font-semibold text-lg">Ugwu Daniel Stephen</h2>
+                <div>
+
+                    <span class="absolute left-0 top-[38%]  md:left-[11%] lg:top-[41%] lg:left-[10%]"><box-icon name='quote-alt-left' type='solid' size='48px' color='#22A2D9'></box-icon></span>
+                    <p class="title-description text-justify px-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tempore, reiciendis rerum autem nostrum fugiat
+                        ratione quidem excepturi mollitia magnam neque praesentium hic, amet quibusdam aliquam dolorum dolores
+                        necessitatibus dolorem?
+                    </p>
+                </div>
             </div>
 
-            <div class="flex flex-col justify-center items-center m-2">
+            <div class="p-2 leading-4 flex justify-center items-center flex-col">
                 <span>
                     <box-icon name='star' size='18px' type='solid' color='#22A2D9'></box-icon>
                     <box-icon name='star' size='18px' type='solid' color='#22A2D9'></box-icon>
@@ -42,17 +51,12 @@
                 <p>Rating</p>
             </div>
 
-            <div class="text-center">
+            <div class="p-2 text-center">
                 <button id="previous-btn" class="hover:scale-125 active:-translate-x-2 transition-all ease-linear duration-100"><box-icon type='solid'
                         name='chevron-left' size='54px' color='#22A2D9'></box-icon></button>
                 <button id="next-btn" class="hover:scale-125 active:translate-x-2 transition-all ease-linear duration-100"><box-icon type='solid'
                         name='chevron-right' size='54px' color='#22A2D9'></box-icon></button>
             </div>
-
-            <p class="text-center">
-                Go back to <a class="px-2 italic text-xl font-bold text-[#22A2D9]" href="index.html">Home</a>
-            </p>
-
         </div>
 
         <script src="/src/script-landing.js"></script>

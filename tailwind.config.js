@@ -13,10 +13,8 @@ module.exports = {
           '100%': {'transform':'translateX(0px)'},
         },
         zoomIn: {
-          '0%': {'transform':'translateY(80px)'}, 
-          '0%': {'filter':'blur(5px)'}, 
+          '0%': {'transform':'translateY(50px)'}, 
           '100%': {'transform':'translateY(0px)'}, 
-          '100%': {'filter':'blur(0px)'}, 
         },
         zoom2: {
           '0%': {'transform':'scale(1.2)blur(2px)'}, 
@@ -25,7 +23,7 @@ module.exports = {
       },
       animation: {
         'slantIn' : "slantIn .6s ease-in",
-        'zoomIn' : "zoomIn .2s ease-in",
+        'zoomIn' : "zoomIn 3s ease-in",
         'rotate': "rotate 2s ease-in",
         'zoom2' : "zoom2 2s ease-in"
       }

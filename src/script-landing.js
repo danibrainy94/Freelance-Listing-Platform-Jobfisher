@@ -16,21 +16,35 @@ const reviews = [
         Id: 1,
         name: "Mr. Ugwu Daniel Stephen",
         image: "/images/profile-danny.jpg",
-        info: "An affiliate marketer is an independent marketer who partners with businesses to promote their goods instead of producing those goods. They commission every sale without worrying about customer service or inventory management.",
+        info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique est ut unde, nulla asperiores quibusdam perspiciatis adipisci expedita dolor repellat, labore non alias quis, obcaecati numquam aut quasi itaque praesentium impedit dolorum!",
 
     },
     {
         Id: 2,
         name: "Mrs. Cynthia",
         image: "/images/profile-cynthia.jpg",
-        info: "The UX designer role is to make a product or service usable, enjoyable, and accessible. While many companies design user experiences, the term is most often associated with digital design for websites and apps.",
+        info: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt repudiandae aliquid ipsa quo saepe illo ducimus laudantium. Totam, consectetur officiis eligendi accusamus tempora voluptatibus magnam illo exercitationem obcaecati ex laboriosam reprehenderit porro!",
 
     },
     {
         Id: 3,
+        name: "Ms. Mercy Ebere Achara",
+        image: "/images/profile-mercy.jpg",
+        info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aliquam, est odio reprehenderit voluptatum eaque? Quidem laudantium ullam reiciendis non blanditiis delectus reprehenderit quaerat, impedit ut eos totam! Modi assumenda ipsam praesentium.",
+
+    },
+    {
+        Id: 4,
+        name: "Mr. Nwaro Odera Brian",
+        image: "/images/profile-bryan.jpg",
+        info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni tempora earum consequatur adipisci, dolorum accusamus dolorem, quaerat voluptatum eum magnam labore itaque libero deserunt neque. Labore iusto expedita veritatis quod adipisci neque.",
+
+    },
+    {
+        Id: 5,
         name: "Mr. Anochiwa Alfred",
         image: "/images/profile-alfred.jpg",
-        info: "Software developers create software to meet user needs by employing diagrams and models, writing code, and ensuring overall functionality. These professionals design, build, and implement computer programs and applications.",
+        info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ea inventore sit, ad tenetur quibusdam reiciendis harum officia vitae, amet velit deleniti consequuntur hic, autem fuga atque ex optio. Necessitatibus, odio voluptate! ipsum dolor sit",
 
     }
 ]
@@ -55,7 +69,7 @@ function defaultPerson(person) {
 function showPersonNext() {
     currentItem++;
     if (currentItem > reviews.length-1){
-        currentItem = 3;
+        currentItem = 5;
     }
     showPerson(currentItem);   
 

@@ -21,23 +21,23 @@ const reviews = [
     },
     {
         Id: 2,
-        name: "Mrs. Cynthia",
+        name: "Ms. Okonkowo Mary  Cynthia",
         image: "/images/profile-cynthia.jpg",
-        info: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt repudiandae aliquid ipsa quo saepe illo ducimus laudantium. Totam, consectetur officiis eligendi accusamus tempora voluptatibus magnam illo exercitationem obcaecati ex laboriosam reprehenderit porro!",
+        info: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt repudiandae aliquid ipsa quo saepe illo ducimus laudantium. Totam, consectetur officiis eligendi accusamus tempora voluptatibus magnam illo exercitationem obcaecati",
 
     },
     {
         Id: 3,
         name: "Ms. Mercy Ebere Achara",
         image: "/images/profile-mercy.jpg",
-        info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aliquam, est odio reprehenderit voluptatum eaque? Quidem laudantium ullam reiciendis non blanditiis delectus reprehenderit quaerat, impedit ut eos totam! Modi assumenda ipsam praesentium.",
+        info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aliquam, est odio reprehenderit voluptatum eaque? Quidem laudantium ullam reiciendis non blanditiis delectus reprehenderit quaerat, impedit ut eos totam! Modi assumenda ipsam",
 
     },
     {
         Id: 4,
         name: "Mr. Nwaro Odera Brian",
         image: "/images/profile-bryan.jpg",
-        info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni tempora earum consequatur adipisci, dolorum accusamus dolorem, quaerat voluptatum eum magnam labore itaque libero deserunt neque. Labore iusto expedita veritatis quod adipisci neque.",
+        info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni tempora earum consequatur adipisci, dolorum accusamus dolorem, quaerat voluptatum eum magnam labore itaque libero deserunt neque. Labore iusto expedita veritatis quod.",
 
     },
     {

@@ -24,5 +24,3 @@ function hideNavContent () {
 hamBtn.addEventListener('click', displayNavContent);
 closeHamBtn.addEventListener('click', hideNavContent);
 
-
-

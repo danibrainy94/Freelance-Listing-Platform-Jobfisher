@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    
+    <section class="w-full h-screen flex justify-center items-center">
+        
+        <div class="px-20 py-2 w-[45vw] h-[67vh]  shadow-lg shadow-slate-500 rounded-lg">
+
+            <header class="text-center">
+                <h1 class="p-1 text-2xl">Customer Feedback</h1>
+            </header>
+
+            <div class="my-0 mx-auto bg-slate-700 w-32 h-32 rounded-full">
+                <img id="img" class="w-32 h-32 rounded-full" src="/images/profile-danny.jpg" alt="">
+            </div>
+
+            <div class="text-center">
+                <h2 id="name" class="p-2 text-xl font-bold italic text-[#22A2D9]">Ugwu Daniel Stephen</h2>
+                <p class="title-description text-left">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tempore, reiciendis rerum autem nostrum fugiat
+                    ratione quidem excepturi mollitia magnam neque praesentium hic, amet quibusdam aliquam dolorum dolores
+                    necessitatibus dolorem?
+                </p>
+            </div>
+
+            <div class="flex flex-col justify-center items-center m-2">
+                <span>
+                    <box-icon name='star' size='18px' type='solid' color='#22A2D9'></box-icon>
+                    <box-icon name='star' size='18px' type='solid' color='#22A2D9'></box-icon>
+                    <box-icon name='star' size='18px' type='solid' color='#22A2D9'></box-icon>
+                    <box-icon name='star' size='18px' type='solid' color='#22A2D9'></box-icon>
+                    <box-icon name='star-half' size='18px' type='solid' color='#22A2D9'></box-icon>
+                </span>
+
+                <p>Rating</p>
+            </div>
+
+            <div class="text-center">
+                <button id="previous-btn" class="hover:scale-125 active:-translate-x-2 transition-all ease-linear duration-100"><box-icon type='solid'
+                        name='chevron-left' size='54px' color='#22A2D9'></box-icon></button>
+                <button id="next-btn" class="hover:scale-125 active:translate-x-2 transition-all ease-linear duration-100"><box-icon type='solid'
+                        name='chevron-right' size='54px' color='#22A2D9'></box-icon></button>
+            </div>
+
+            <p class="text-center">
+                Go back to <a class="px-2 italic text-xl font-bold text-[#22A2D9]" href="index.html">Home</a>
+            </p>
+
+        </div>
+
+        <script src="/src/script-landing.js"></script>
+    </section>
+</body>
+</html>

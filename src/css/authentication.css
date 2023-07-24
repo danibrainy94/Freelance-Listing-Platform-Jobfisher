@@ -26,6 +26,13 @@ a{
     background-color: #22A2D9;
     color: white;
     width: 100%;
+    scale: 1.1;
+}
+
+.custom-btn:active, .custom-btn:focus {
+    transform: translateY(4px);
+    transition: all ease 1s;
+    background-color: #22A2D9;
 }
 
 .custom-center{

@@ -18,26 +18,34 @@
         <div class="w-[90vw] px-3 py-2 rounded-lg shadow-lg shadow-slate-600 m-8 md:px-20 md:py-2 md:w-[60vw] md:h-fit lg:w-[60vw] lg:h-[67vh] animate-zoom2 relative">
             <a class="absolute left-[-3%] top-[-5%]" href="/index.html"><box-icon type='solid' name='x-circle' size='64px' color='#22A2D9'></box-icon></a>
 
+            <!-- ===== review page title ===== -->
             <header class="text-center">
                 <h1 class="p-1 text-xl md:text-2xl font-bold animate-slant2">Customer Feedback</h1>
             </header>
 
             <!-- ===== Values loaded from javascript object ===== -->
+
+            <!-- ===== the review image container ===== -->
             <div class="my-0 mx-auto bg-slate-700 w-32 h-32 rounded-full">
                 <img id="img" class="w-32 h-32 rounded-full" src="" alt="">
             </div>
 
             <div class="text-center animate-slant2">
+
+                <!-- ===== client name ===== -->
                 <h2 id="name" class=" p-2 italic text-[#22A2D9] font-semibold text-lg"></h2>
                 <div>
 
+                    <!-- ===== left quotation mark ===== -->
                     <span class="absolute left-0 top-[38%]  md:left-[11%] lg:top-[41%] lg:left-[8%]"><box-icon name='quote-alt-left' type='solid' size='44px' color='#22A2D9'></box-icon></span>
                     
+                    <!-- ===== review text ===== -->
                     <p class="title-description text-justify px-6"></p>
                 </div>
             </div>
 
             <div class="p-2 leading-4 flex justify-center items-center flex-col">
+                <!-- ===== review stars ===== -->
                 <span>
                     <box-icon name='star' size='18px' type='solid' color='#22A2D9'></box-icon>
                     <box-icon name='star' size='18px' type='solid' color='#22A2D9'></box-icon>
@@ -49,6 +57,7 @@
                 <p>Rating</p>
             </div>
 
+            <!-- ===== previous and next button ===== -->
             <div class="p-2 text-center">
                 <button id="previous-btn" class="hover:scale-125 active:-translate-x-2 transition-all ease-linear duration-100"><box-icon type='solid'
                         name='chevron-left' size='54px' color='#22A2D9'></box-icon></button>
